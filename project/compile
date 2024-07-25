@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python3 -m venv ./project/venv
+source ./project/venv/bin/activate
+
+pip install --upgrade -q pip 
+pip install -q -r ./project/packages.txt

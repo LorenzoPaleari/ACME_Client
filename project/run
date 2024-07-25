@@ -1,0 +1,6 @@
+#!/bin/bash
+DIRECTORY=$(dirname "$0")
+cd  "$DIRECTORY" || exit 1
+
+cd ../acme_client/
+python main.py "$@"

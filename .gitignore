@@ -1,0 +1,13 @@
+# Virtual Environments
+venv/
+env/
+
+# pycache
+__pycache__/
+
+# IDEs
+.idea/
+.vscode/
+
+# Certificates
+certificate/
